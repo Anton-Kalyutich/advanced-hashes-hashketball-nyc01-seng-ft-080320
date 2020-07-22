@@ -159,5 +159,5 @@ end
 
 def team_names
   the_hash = game_hash
-  
+  the_hash.each_value do |team_hash|
 end
