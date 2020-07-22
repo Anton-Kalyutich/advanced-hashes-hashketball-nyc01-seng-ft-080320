@@ -167,3 +167,4 @@ def team_names
 end
 
 def player_numbers(name_of_team)
+  the_hash = game_hash
