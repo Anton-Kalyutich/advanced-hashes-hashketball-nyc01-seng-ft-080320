@@ -173,5 +173,8 @@ def player_numbers(name_of_team)
     if team_hash[:team_name] == name_of_team
        team_hash[:players].each do |player|
          player_numbers << player[:number]
+      end
+    end
+      
   player_numbers       
 end
