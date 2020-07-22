@@ -150,4 +150,5 @@ end
 
 def team_colors(team_name)
   the_hash = game_hash
+  the_hash.each_value do |team_hash|
 end
