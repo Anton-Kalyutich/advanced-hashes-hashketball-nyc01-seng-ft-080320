@@ -192,7 +192,7 @@ end
 
 def big_shoe_rebounds
   size = 0
-  rebounds = 
+  rebounds = 0
   the_hash = game_hash
   the_hash.each_value do |team_hash|
     team_hash[:players].each do |player|
