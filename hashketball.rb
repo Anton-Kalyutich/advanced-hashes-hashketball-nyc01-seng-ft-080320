@@ -170,4 +170,5 @@ def player_numbers(name_of_team)
   the_hash = game_hash
   the_hash.each_value do |team_hash|
     if team_hash[:team_name] == name_of_team
+       team_hash[:players].each do |player|
       
