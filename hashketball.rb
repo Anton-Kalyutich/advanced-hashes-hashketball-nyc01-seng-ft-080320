@@ -128,7 +128,8 @@ end
 
 def num_points_scored(name)
   the_hash = game_hash
-  the_hash.each_value do |inn
+  the_hash.each_value do |inner_hash|
+    
   
 end
 
