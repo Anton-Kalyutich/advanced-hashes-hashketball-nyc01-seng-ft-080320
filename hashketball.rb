@@ -168,3 +168,4 @@ end
 
 def player_numbers(name_of_team)
   the_hash = game_hash
+  the_hash.each_value do |team_hash|
